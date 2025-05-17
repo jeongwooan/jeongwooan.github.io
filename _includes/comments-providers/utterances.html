@@ -14,7 +14,7 @@
     script.setAttribute('issue-term', '{{ site.comments.utterances.issue_term | default: "pathname" }}');
     {% if site.comments.utterances.label %}script.setAttribute('label', '{{ site.comments.utterances.label }}');{% endif %}
     script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
-    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('crossorigin', '{{ site.comments.utterances.crossorigin }}');
 
     commentContainer.appendChild(script);
   })();
