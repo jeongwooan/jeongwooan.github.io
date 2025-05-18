@@ -21,7 +21,7 @@ title                    : "GitHub Blog - jeongwooan"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "jeongwooan"
-description              : "깃허브 블로그에 도전해보는 컴공 대학생"
+description              : "97년 컴공생"
 url                      : "https://jeongwooan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jeongwooan/jeongwooan.github.io"
